@@ -1,26 +1,21 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
 
 export class Navbar extends Component {
-  static propTypes = {}
-
   render() {
     return (
-      <div>
-        <header>
+      <div className="flex flex-col">
+        <header className="bg-gray-100 p-4">
           <nav>
-            <ul>
+            <ul className="flex space-x-4">
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
           </nav>
         </header>
-
-    </div>
-    )
+      </div>
+    );
   }
 }
 
-export default Navbar
+export default Navbar;

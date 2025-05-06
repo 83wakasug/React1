@@ -6,12 +6,11 @@ export class Sidebar extends Component {
 
   render() {
     return (
-      <div>
-          <nav>
+      <div className="bg-gray-100 p-4" style={{ height: '90vh' }}>
+          <nav> 
             <ul>
               <li><a href="/uppgift2">uppgift2</a></li>
               <li><a href="/uppgift3">uppgift3</a></li>
-              <li><a href="/contact">Contact</a></li>
             </ul>
           </nav>
       </div>
