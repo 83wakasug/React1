@@ -7,9 +7,9 @@ export class Navbar extends Component {
         <header className="bg-gray-100 p-4">
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li className='hover:bg-gray-500'><a href="/">Home</a></li>
+              <li className='hover:bg-gray-500'><a href="/about">About</a></li>
+              <li className='hover:bg-gray-500'><a href="/contact">Contact</a></li>
             </ul>
           </nav>
         </header>
